@@ -5,4 +5,5 @@
    * [Linux networking](introduction_to_network/linux_networking.md)
 * [Basics: First steps in networking](basics_first_steps_in_networking/README.md)
    * [Basic commands](basics_first_steps_in_networking/basic_commands.md)
+   * [IP address ](basics_first_steps_in_networking/ip_address.md)
 
