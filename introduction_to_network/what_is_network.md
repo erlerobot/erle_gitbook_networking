@@ -1,6 +1,6 @@
 ## What is *Network*?
 
-## What is *Network*?
+
 
 A *network* consists of multiple mochines (computers) that are connected together and share each other all kinds of information. This connection between the network can be developed through waves and signals or wires, depending on which is most convenient for work and the type of information that needs to be shared.
 
