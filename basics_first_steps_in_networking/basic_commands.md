@@ -20,6 +20,7 @@ Send ICMP ECHO_REQUEST packets to network hosts is what Linux `ping` command doe
 #####` ftp` command
 This program allows users to transfer files to and from a remote network site using the Internet standard File Transfer Protocol.
 
+
 |**Command**|**Meaning**|
 |-------------|------------|
 |ifconfig |configure network interface|
@@ -29,3 +30,8 @@ This program allows users to transfer files to and from a remote network site us
 |telnet|communicate with another host using the Telnet protocol|
 |ftp|transfer files to and from a remote network site|
 
+Here you can find some examples of the execution of these commands:
+
+*working with erlerobot:*
+
+![commands](img1/command.jpg)
