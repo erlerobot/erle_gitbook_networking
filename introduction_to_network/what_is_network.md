@@ -1,5 +1,7 @@
 ## What is *Network*?
 
+## What is *Network*?
+
 A *network* consists of multiple mochines (computers) that are connected together and share each other all kinds of information. This connection between the network can be developed through waves and signals or wires, depending on which is most convenient for work and the type of information that needs to be shared.
 
 In the *network* multiple machines (host) are connected to the comunication sub-net that allows the dialog between them. They can comunicate in two basic ways:
@@ -20,5 +22,6 @@ Each level in a machine "talks with" his twin
 in another. The rules governing this "conversation" form the protocol of that level.
 
 When we talk about Network Architecture, we are talking about the set of levels and protocols of a computers network.
+
 
 
