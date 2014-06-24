@@ -6,7 +6,7 @@ A *network* consists of multiple machines (computers) that are connected togethe
 
 In the *network* multiple machines (host) are connected to the comunication sub-net that allows the dialog between them. They can comunicate in two basic ways:
 
-- Through channels point by point
+- Through channels point by point(unicast)
 - Through broadcast channels
 
 For communicating machines that aren't able to comunicate by themselves, **routers** (intermediate machines) are used.
