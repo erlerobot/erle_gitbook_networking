@@ -1,7 +1,7 @@
 ## Basic concepts
 
 
-One of the first thing you should learn about networking is IP protocol and IP addresses.
+One of the first thing you should learn about networking is **IP protocol** and **IP addresses**.
 
 
 IP protocol is one of the protocols that make a networking possible. Remember that a protocol is a rules that govern communication between two systems.
@@ -41,7 +41,7 @@ In each class the range and the size of the identifiers is different:
 
 ![classes](img1/classes.jpeg)
 
-Next is subnet mask. Every time we assign an IP address to a network computer, we must also assign a subnet mask. Ip address comes with different subnet mask depending on it's class. In each IP classes, the subnet mask defines network segment of that system. It says how much of the address is used for the network is defined by the subnet mask.Definitely, the subnet mask is used to specify the networks and the sub-networks used.
+Next is **subnet mask**. Every time we assign an IP address to a network computer, we must also assign a subnet mask. Ip address comes with different subnet mask depending on it's class. In each IP classes, the subnet mask defines network segment of that system. It says how much of the address is used for the network is defined by the subnet mask.Definitely, the subnet mask is used to specify the networks and the sub-networks used.
 
 Default subnet mask:
 
@@ -51,6 +51,8 @@ B-255.255.0.0
 
 C-255.255.255.0
 
-Related to networking and net-masks is the concept of the gateaway.It's an IP addess that defines the junction between the locas network and the external network.While the gateway IP address is a part of the local network such as the public Internet. The gateway IP address is normally configures in the routing table for the local system, as defined by the route or `netstat -r `command.
+Related to networking and net-masks is the concept of the **gateaway**:It's an IP address that defines the junction between the locas network and the external network.In other words,a gateway is a host that is connected to two or more physical networks
+simultaneously and is configured to switch packets between them
+While the gateway IP address is a part of the local network such as the public Internet. The gateway IP address is normally configures in the routing table for the local system, as defined by the route or `netstat -r `command.
 
 
