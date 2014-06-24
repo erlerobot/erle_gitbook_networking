@@ -13,4 +13,8 @@
 * [Linux Network Devices](linux_network_devices/README.md)
    * [Linux Interfaces](linux_network_devices/linux_interfaces.md)
    * [ Accessing Serial Devices](linux_network_devices/accessing_serial_devices.md)
+* [DNS](dns/README.md)
+   * [What is *DNS*?](dns/what_is_dns.md)
+   * [How *DNS* works](dns/how_dns_works.md)
+* [Host](host/README.md)
 
