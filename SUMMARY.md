@@ -17,4 +17,5 @@
    * [What is *DNS*?](dns/what_is_dns.md)
    * [How *DNS* works](dns/how_dns_works.md)
 * [Host](host/README.md)
+   * [Host basics](host/host_basics.md)
 
