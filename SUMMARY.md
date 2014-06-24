@@ -6,4 +6,6 @@
 * [Basics: First steps in networking](basics_first_steps_in_networking/README.md)
    * [Basic commands](basics_first_steps_in_networking/basic_commands.md)
    * [IP address ](basics_first_steps_in_networking/ip_address.md)
+       * [Basic concepts](basics_first_steps_in_networking/basic_concepts.md)
+       * [Assigning an IP address](basics_first_steps_in_networking/assigning_an_ip_address.md)
 

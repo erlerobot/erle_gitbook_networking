@@ -1,4 +1,5 @@
-## IP address
+## Basic concepts
+
 
 One of the first thing you should learn about networking is IP protocol and IP addresses.
 
