@@ -13,13 +13,15 @@ For communicating machines that aren't able to comunicate by themselves, **route
 
 Moreoever, the **protocols** are a set of rules (interfaces, algorithms, formats messages...) known by the entities exchanging data through the communications network.
 
-The protocols used by the machines are organised in different levels, in such a way that:
+The protocols used by the machines are organised in different **levels**, in such a way that:
 
 - Each level offers services to a higher level
 - Each level is supported by services offered by a lower level
 
 Each level in a machine "talks with" his twin
 in another. The rules governing this "conversation" form the protocol of that level.
+
+![protocolsandlevels](img/pro_levels.jpg)
 
 When we talk about **Network Architecture**, we are talking about the set of levels and protocols of a computers network.
 
