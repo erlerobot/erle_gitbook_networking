@@ -10,4 +10,6 @@
        * [Assigning an IP address](basics_first_steps_in_networking/assigning_an_ip_address.md)
    * [Ethernet](basics_first_steps_in_networking/ethernet.md)
        * [ARP protocol](basics_first_steps_in_networking/arp_protocol.md)
+* [Linux Network Devices](linux_network_devices/README.md)
+   * [ Accessing Serial Devices](linux_network_devices/accessing_serial_devices.md)
 
