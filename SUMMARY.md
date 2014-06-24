@@ -11,5 +11,6 @@
    * [Ethernet](basics_first_steps_in_networking/ethernet.md)
        * [ARP protocol](basics_first_steps_in_networking/arp_protocol.md)
 * [Linux Network Devices](linux_network_devices/README.md)
+   * [Linux Interfaces](linux_network_devices/linux_interfaces.md)
    * [ Accessing Serial Devices](linux_network_devices/accessing_serial_devices.md)
 
