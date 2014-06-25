@@ -1,8 +1,8 @@
 ## Network configuration files
 
-In Linux we are able to configure the network by editing the configuration files.We can find this files in the etc directory and edit them using, for example *vi* text editor.
+In Linux we are able to configure the network by editing the configuration files.We can find this files in the etc directory and edit them using, for example *vi* text editor.(If they don't exist, you can create them and they will update their content automatically).
 
-![files](img6/files.jpg)
+![filesetc](img6/etc.jpg)
 
 #### /etc/network/interfaces
 

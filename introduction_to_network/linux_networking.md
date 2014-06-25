@@ -8,3 +8,5 @@ As you have seen modern networking applications require a sophisticated approach
 As you know, Linux itself is just a kernel. Linux can be configured as a networked workstation, a DNS server, a DHCP server, a web server, a mail server, a file and print server, database server, a firewall, a gateway router and many more.Linux is capable to be all that. In this section, you will learn the odds of **Linux as a network operating system or server system**, to be all that mention above.
 
 
+
+
