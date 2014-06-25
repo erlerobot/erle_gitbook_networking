@@ -8,6 +8,7 @@
    * [IP address ](basics_first_steps_in_networking/ip_address.md)
        * [Basic concepts](basics_first_steps_in_networking/basic_concepts.md)
        * [Assigning an IP address](basics_first_steps_in_networking/assigning_an_ip_address.md)
+       * [IP alias](basics_first_steps_in_networking/ip_alias.md)
    * [Ethernet](basics_first_steps_in_networking/ethernet.md)
        * [ARP protocol](basics_first_steps_in_networking/arp_protocol.md)
 * [Linux Network Devices](linux_network_devices/README.md)
@@ -18,4 +19,6 @@
    * [How *DNS* works](dns/how_dns_works.md)
 * [Host](host/README.md)
    * [Host basics](host/host_basics.md)
+* [Network Configuration](network_configuration/README.md)
+   * [Network configuration commands](network_configuration/network_configuration_commands.md)
 

@@ -45,6 +45,6 @@ The arp utility displays and modifies the Internet-to-Ethernet address translati
 
 Here you can find some examples of the execution of these commands:
 
-*working with erlerobot:*
+
 
 ![commands](img1/command.jpg)

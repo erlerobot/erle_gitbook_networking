@@ -55,4 +55,12 @@ Related to networking and net-masks is the concept of the **gateaway**:It's an I
 simultaneously and is configured to switch packets between them
 While the gateway IP address is a part of the local network such as the public Internet. The gateway IP address is normally configures in the routing table for the local system, as defined by the route or `netstat -r `command.
 
+For knowing the IP address of your computer, type:
+```
+ifconfig
+```
+
+![Ip](img1/IP_add.jpg)
+
+In `inet addr` you can find the Ip address.
 
