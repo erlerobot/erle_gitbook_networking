@@ -27,3 +27,7 @@ As we have seen in [*5.1 Host Basics*](../host/host_basics.md), in the file /etc
 ####/etc/resolv.conf
 
 In the file / etc / resolv.conf specify what servers use to resolve domain names.
+
+####/etc/nsswitch.conf
+
+Defines the order in which to contact different name services.

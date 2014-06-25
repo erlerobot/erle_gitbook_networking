@@ -44,6 +44,14 @@ To make use of all the features of this program, you  need  to  have  a Linux  k
 `lsmod` shows information about all loaded modules.
 The format is name, size, use count, list of referring modules. The information displayed is identical to that available from /proc/modules.
 
+#### `ip`command
+
+IP is the transport layer protocol used by the Internet protocol family. Options may be set at the IP level when using higher-level protocols that are based on IP (such as TCP and UDP).  It may also be accessed through a``raw socket'' when developing new protocols, or special-purpose applica-tions.
+With this command you can display the IP address or the Ip route.
+
+####`traceroute`command
+Displays the route packets take to network host.`traceroute` utilizes the IP protocol `time to live' field and attempts to elicit an ICMP TIME_EXCEEDED response from each gateway along the path to some host to determine the route one packet follows.
+
 
 
 |**Command**|**Meaning**|
@@ -57,6 +65,8 @@ The format is name, size, use count, list of referring modules. The information 
 |arp|address resolution display and control|
 |lsusb|displays info. about usb connections|
 |lsmod| information about all loaded modules|
+|ip -- show|display Ip address/route|
+|traceroute|display packet's route|
 
 Here you can find some examples of the execution of these commands:
 

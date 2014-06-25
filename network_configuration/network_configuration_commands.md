@@ -1,7 +1,22 @@
 ## Network configuration commands
 
+####ip
 
-#### Ifconfig
+IP is the transport layer protocol used by the Internet protocol family. Options may be set at the IP level when using higher-level protocols that
+are based on IP (such as TCP and UDP).
+
+```
+ip addr show
+```
+Displays the IP address
+
+```
+ip route show
+```
+
+Displays the IP route
+
+#### ifconfig
 
 There are many more parameters to `ifconfig` than we have described so far. Its normal invocation is this:
 ```
@@ -129,7 +144,10 @@ Shows the active connections of the TCP ports Muestra las conexiones activas a p
 netstat -u
 ```
 Displays active connections to UDP ports. If included "a" will also display the ports that are waiting for a connection (listening).
-
+```
+netstat-nr
+```
+Displays routing information.The -n shows network addresses as numbers and the -r  shows the routing tables.
 
 ####ping
 
@@ -149,4 +167,14 @@ ping -c n hostname
 especificados se muestra la estadística de los resultados.After sending the specified messages, statistical results are shown.
 
 ![ping](img6/ping.jpg)
+
+####traceroute
+
+The Internet is a large and complex aggregation of network hardware, connected together by gateways.  Tracking the route one's packets follow (or finding the miscreant gateway that's discarding your packets) can be difficult.  traceroute utilizes the IP protocol `time to live' field and attempts to elicit an ICMP TIME_EXCEEDED response from each gateway along the path to some host.
+
+For example, you can check the route the packets follow to a network host using this command:
+```
+/usr/sbin/traceroute www.eunet.be
+```
+
 

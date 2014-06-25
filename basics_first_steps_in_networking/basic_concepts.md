@@ -62,5 +62,11 @@ ifconfig
 
 ![Ip](img1/IP_add.jpg)
 
-In `inet addr` you can find the Ip address.
+In `inet addr` you can find the IP address.
+
+As we have seen in basic commands , there is also a command that do this for you.
+```
+ip addr show
+```
+
 
