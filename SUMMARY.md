@@ -8,6 +8,7 @@
    * [Basic commands](basics_first_steps_in_networking/basic_commands.md)
    * [IP address ](basics_first_steps_in_networking/ip_address.md)
        * [Basic concepts](basics_first_steps_in_networking/basic_concepts.md)
+       * [IPv4 vs IPv6](basics_first_steps_in_networking/ipv4_vs_ipv6.md)
        * [Assigning an IP address](basics_first_steps_in_networking/assigning_an_ip_address.md)
        * [IP alias](basics_first_steps_in_networking/ip_alias.md)
    * [Ethernet](basics_first_steps_in_networking/ethernet.md)
