@@ -52,6 +52,9 @@ With this command you can display the IP address or the Ip route.
 ####`traceroute`command
 Displays the route packets take to network host.`traceroute` utilizes the IP protocol `time to live' field and attempts to elicit an ICMP TIME_EXCEEDED response from each gateway along the path to some host to determine the route one packet follows.
 
+#### `whois`command
+
+Specific domain name information can be queried using the `whois` command.This utility looks up records in the databases maintained by several Network Information Centers (NICs).
 
 
 |**Command**|**Meaning**|
@@ -67,9 +70,13 @@ Displays the route packets take to network host.`traceroute` utilizes the IP pro
 |lsmod| information about all loaded modules|
 |ip -- show|display Ip address/route|
 |traceroute|display packet's route|
+|whois|domain name information|
+
+
 
 Here you can find some examples of the execution of these commands:
 
 
 
-![commands](img1/command.jpg)
+![commands](img1/com1.jpg)
+![commands1](img1/com2.jpg)

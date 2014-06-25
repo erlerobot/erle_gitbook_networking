@@ -16,6 +16,8 @@ ip route show
 
 Displays the IP route
 
+![ip](img6/ip.jpg)
+
 #### ifconfig
 
 There are many more parameters to `ifconfig` than we have described so far. Its normal invocation is this:

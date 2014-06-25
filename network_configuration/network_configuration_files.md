@@ -20,14 +20,22 @@ Is text editable file like this:
 ####/etc/hostname
 Here is specified the name of the machine.
 
+![hostname](img6/hostname.jpg)
+
 ####/etc/hosts
 
 As we have seen in [*5.1 Host Basics*](../host/host_basics.md), in the file /etc/hosts specify the IP along with the name of each machine you want to access by name.
+
+![hosts](img6/hosts.jpg)
 
 ####/etc/resolv.conf
 
 In the file / etc / resolv.conf specify what servers use to resolve domain names.
 
+![conf](img6/netconf.jpg)
+
 ####/etc/nsswitch.conf
 
 Defines the order in which to contact different name services.
+
+![switch](img6/switch.jpg)
