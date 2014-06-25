@@ -8,7 +8,11 @@ There is a number of standard names for interfaces in Linux, which are listed he
 
 This is the local loopback interface. It is used for testing purposes, as well as a couple of network
 applications. It works like a closed circuit in that any datagram written to it will immediately be
-returned to the host's networking layer. There's always one loopback device present in the kernel, and
+returned to the host's networking layer.In other words,the loopback network device is an interface network
+always represents the virtual device itself
+regardless of the IP address that you may have
+assigned. Your IP is 127.0.0.1.
+There's always one loopback device present in the kernel, and
 there's little sense in having more.
 
 ####eth0, eth1, &
