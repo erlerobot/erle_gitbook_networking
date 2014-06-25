@@ -34,6 +34,7 @@ This book has been based on diferent Linux documentation avaliable on the intern
 - [Linux Network Configuration](http://www.yolinux.com/TUTORIALS/LinuxTutorialNetworking.html)
 - [Configuración de la red en GNU/Linux)]( http://elara.site.ac.upc.edu/documentacion/LINUX%20-%20UD11%20-%20Configuracion%20de%20red%20en%20Linux.pdf)
 - [Introducción a las Redes de Ordenadores](http://docencia.etsit.urjc.es/moodle/mod/folder/view.php?id=3043)
+- [Introduction to Linux: A Hands on Guide by Machtelt Garrels](http://www.tldp.org/LDP/intro-linux/html/chap_10.html)
 
 
 Unless specified, this content is licensed under the Creative Commons Attribution-NonComercial-Share Alike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
