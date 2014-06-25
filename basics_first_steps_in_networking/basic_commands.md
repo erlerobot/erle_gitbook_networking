@@ -1,5 +1,6 @@
 ## Basic commands
 
+This is a resume containing some of the most used comands when networking.
 
 #####`ifconfig` command
 
