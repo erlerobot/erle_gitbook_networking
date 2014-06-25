@@ -21,4 +21,5 @@
    * [Host basics](host/host_basics.md)
 * [Network Configuration](network_configuration/README.md)
    * [Network configuration commands](network_configuration/network_configuration_commands.md)
+   * [Network configuration files](network_configuration/network_configuration_files.md)
 

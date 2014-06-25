@@ -32,6 +32,18 @@ This program allows users to transfer files to and from a remote network site us
 
 The arp utility displays and modifies the Internet-to-Ethernet address translation tables used by the address resolution protocol.
 
+####`lsusb` command
+
+ Is  a  utility for displaying information about USB buses in the system and the devices connected to them.
+
+To make use of all the features of this program, you  need  to  have  a Linux  kernel  which  supports the /proc/bus/usb interface (e.g., Linux kernel 2.3.15 or newer).
+
+####`lsmod` command
+
+`lsmod` shows information about all loaded modules.
+The format is name, size, use count, list of referring modules. The information displayed is identical to that available from /proc/modules.
+
+
 
 |**Command**|**Meaning**|
 |-------------|------------|
@@ -42,6 +54,8 @@ The arp utility displays and modifies the Internet-to-Ethernet address translati
 |telnet|communicate with another host using the Telnet protocol|
 |ftp|transfer files to and from a remote network site|
 |arp|address resolution display and control|
+|lsusb|displays info. about usb connections|
+|lsmod| information about all loaded modules|
 
 Here you can find some examples of the execution of these commands:
 
