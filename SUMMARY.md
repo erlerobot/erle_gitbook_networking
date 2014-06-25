@@ -3,6 +3,7 @@
 * [Introduction to Network ](introduction_to_network/README.md)
    * [What is *Network*?](introduction_to_network/what_is_network.md)
    * [Linux networking](introduction_to_network/linux_networking.md)
+       * [TCP/IP and packets](introduction_to_network/tcp_and_packets.md)
 * [Basics: First steps in networking](basics_first_steps_in_networking/README.md)
    * [Basic commands](basics_first_steps_in_networking/basic_commands.md)
    * [IP address ](basics_first_steps_in_networking/ip_address.md)
