@@ -37,4 +37,5 @@
    * [Rsh, rlogin and telnet](remote_execution_of_applications/rsh,_rlogin_and_telnet.md)
    * [The X Window System](remote_execution_of_applications/the_x_window_system.md)
    * [SSH suite](remote_execution_of_applications/ssh_suite.md)
+   * [Extra concepts](remote_execution_of_applications/extra_concepts.md)
 

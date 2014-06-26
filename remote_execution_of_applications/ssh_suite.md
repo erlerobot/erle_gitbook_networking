@@ -15,7 +15,7 @@ When connecting to a host for the first time, using any of the programs that are
 
 ```
 ssh blob
-````
+```
 
 If you just want to check something on a remote machine and then get your prompt back on the local host, you can give the commands that you want to execute remotely as arguments to ssh:
 
@@ -48,40 +48,31 @@ The ssh client/server system automatically maintains and checks a database conta
 
 ####Secure remote copying
 
-The SSH suite provides `scp` command. `scp `uses ssh for data transfer, uses the same authentication and provides the same security as ssh.In other words, `scp `copies files between hosts on a network.
+The SSH suite provides `scp` command. `scp `uses ssh for data transfer, uses the same authentication and provides the same security as ssh.In other words, `scp `copies files between hosts on a network.For example:
+
+```
+scp Schedule.sdc.gz blob:/var/tmp/
+```
+
+`scp` can only be used for transferring files, and it is non-interactive (i.e., everything has to be specified on the command line). `sftp` is more elaborate, and allows interactive commands to do things like creating directories, deleting directories and files (all subject to system permissions, of course), etc.
 
 
-#HERE TO CONTINUE
-
-lenny /var/tmp> scp Schedule.sdc.gz blob:/var/tmp/
-lenny@blob's password:
-Schedule.sdc.gz  100% |*****************************| 100 KB 00:00
-
-lenny /var/tmp>
-Any file name may contain a host and user specification to indicate that the file is to be copied to/from that host. Copies between two remote hosts are permitted. See the Info pages for more information.
-
-If you would rather use an FTP-like interface, use sftp:
-
-
-lenny /var/tmp> sftp blob
-Connecting to blob...
-lenny@blob's password:
+```
+sftp blob
 
 sftp> cd /var/tmp
 
 sftp> get Sch*
-Fetching /var/tmp/Schedule.sdc.gz to Schedule.sdc.gz
 
 sftp> bye
 
-lenny /var/tmp>
-Note	Secure copy or FTP GUIs
+```
 
-Don't feel comfortable with the command line yet? Try Konqueror's capabilities for secure remote copy, or install Putty.
+This are complecated commands, you can learn more [here](http://support.suso.com/supki/SSH_Tutorial_for_Linux).
 
-10.4.4.5. Authentication keys
+#### Authentication keys
 
-The ssh-keygen command generates, manages and converts authentication keys for ssh. It can create RSA keys for use by SSH protocol version 1 and RSA or DSA keys for use by SSH protocol version 2.
+The `ssh-keygen` command generates, manages and converts authentication keys for ssh. It can create RSA keys for use by SSH protocol version 1 and RSA or DSA keys for use by SSH protocol version 2.
 
 Normally each user wishing to use SSH with RSA or DSA authentication runs this once to create the authentication key in $HOME/.ssh/identity, id_dsa or id_rsa. Additionally, the system administrator may use this to generate host keys for the system.
 
@@ -89,4 +80,5 @@ Normally this program generates the key and asks for a file in which to store th
 
 There is no way to recover a lost passphrase. If the passphrase is lost or forgotten, a new key must be generated and copied to the corresponding public keys.
 
-We will study SSH keys in the exercises. All information can be found in the man or Info pages.
+![keygen](img8/keygen.jpg)
+
