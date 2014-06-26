@@ -24,4 +24,7 @@
 * [Network Configuration](network_configuration/README.md)
    * [Network configuration commands](network_configuration/network_configuration_commands.md)
    * [Network configuration files](network_configuration/network_configuration_files.md)
+* [Internet/Intranet applications](internetintranet_applications/README.md)
+   * [Internet basics](internetintranet_applications/internet_basics.md)
+   * [Servers](internetintranet_applications/servers.md)
 

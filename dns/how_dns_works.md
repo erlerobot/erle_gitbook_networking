@@ -1,5 +1,10 @@
 ## How *DNS* works
 
+DNS servers accept requests from programs and other name servers to convert domain names into IP addresses. When a request comes in, the DNS server can do one of four things with it:
+It can answer the request with an IP address because it already knows the IP address for the requested domain.
+It can contact another DNS server and try to find the IP address for the name requested. It may have to do this multiple times.
+It can say, "I don't know the IP address for the domain you requested, but here's the IP address for a DNS server that knows more than I do."
+It can return an error message because the requested domain name is invalid or does not exist.
 
 How a DNS works in an image:
 
