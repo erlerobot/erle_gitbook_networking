@@ -49,6 +49,10 @@ Hypertext is structured text that uses logical links (hyperlinks) between nodes 
 
 Cookies evolved because they solve a big problem for the people who implement Web sites. In the broadest sense, a cookie allows a site to store state information on your machine. This information lets a Web site remember what state your browser is in. An ID is one simple piece of state information; if an ID exists on your machine, the site knows that you have visited before. The state is, "Your browser has visited the site at least one time," and the site knows your ID from that visit.
 
+####The World Wide Web (WWW)
+
+The Internet has much to offer in terms of information on almost any subject matter imaginable and interaction with people and organizations from all over the world. Much of this access and interaction make use of the environment which is popularly known as the World Wide Web (WWW) or web. The WWW is an interlinked network of systems( web servers) offering multimedia services and information. A user can access these using what is known as web browser software, such as Mozilla  or Chrome web browsers.
+
 
 
 
