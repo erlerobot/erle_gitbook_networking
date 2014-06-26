@@ -16,3 +16,5 @@ The browser communicated with a name server to translate the server name "www.er
 Following the HTTP protocol, the browser sent a GET request to the server, asking for the file "http://www.erlerobot.com/tutorials.htm".
 
 The server then sent the HTML text for the Web page to the browser. (Cookies may also be sent from server to browser in the header for the page.) The browser read the HTML tags and formatted the page onto your screen.
+
+

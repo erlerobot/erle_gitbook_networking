@@ -27,4 +27,6 @@
 * [Internet/Intranet applications](internetintranet_applications/README.md)
    * [Internet basics](internetintranet_applications/internet_basics.md)
    * [Servers](internetintranet_applications/servers.md)
+       * [Server types](internetintranet_applications/server_types.md)
+   * [Mail](internetintranet_applications/mail.md)
 
