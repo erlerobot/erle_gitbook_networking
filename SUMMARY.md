@@ -28,5 +28,9 @@
    * [Internet basics](internetintranet_applications/internet_basics.md)
    * [Servers](internetintranet_applications/servers.md)
        * [Server types](internetintranet_applications/server_types.md)
+   * [Web](internetintranet_applications/web.md)
+       * [Proxy servers](internetintranet_applications/proxy_servers.md)
    * [Mail](internetintranet_applications/mail.md)
+   * [FTP](internetintranet_applications/ftp.md)
+   * [Authentication services](internetintranet_applications/authentication_services.md)
 
