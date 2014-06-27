@@ -96,7 +96,7 @@ Suppose no DNS is available. What would you do to reach your neighbour's machine
 - [x] Edit /etc/hosts file
 - [ ] Use `ifconfig` command
 
-> If you use the ifconfig command,you will need to type the Ip address often, and that's what we want to avoid. For more info of how to edit hosts file visit chapter 6.2 *Network configuration files*.
+> If you use the ifconfig command,you will need to type the Ip address often, and that's what we want to avoid. For more info of how to edit hosts file visit chapter *6.2 Network configuration files*.
 
 
 
@@ -113,10 +113,25 @@ How would you permanently store proxy information for a text mode browser such a
 - [ ] use chmod to change proxy servers permission
 - [x] edit your ~/.bashrc with a `export` line
 
-> You can find the answer in 7.3.1 "proxy servers".
+> You can find the answer in *7.3.1 proxy servers*.
 
 
 
 ---
 
+
+####Question 4
+
+---
+
+Does your machine run a web server?How to check it?:
+
+- [ ] I check if /etc/httpd file exits
+- [x] I check it using `ps `
+
+> Go to *7.2.1 Server types* for more info .
+
+
+
+---
 

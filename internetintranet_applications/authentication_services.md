@@ -76,7 +76,7 @@ Since LDAP is an open and configurable protocol, it can be used to store almost 
 See your system specific information and the man pages for related commands such as `ldapmodify` (LDAP modify entry and LDAP add entry tools) and `ldapsearch`(LDAP search tool) for details.
 
 - More information can be found in the [LDAP Linux HOWTO](http://www.tldp.org/HOWTO/LDAP-HOWTO/whatisldap.html), in ths webpage you will also find installing and configuting steps.
--
+
 - Also this [website](http://www.linux.com/learn/tutorials/376144-manage-ldap-from-the-command-line) should be insteresting, for managing the LDAP from the command line.
 
 
