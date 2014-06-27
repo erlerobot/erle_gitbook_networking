@@ -28,3 +28,8 @@ export http_proxy=http://willy:Appelsi3ntj3@proxy:80
 
 If you do not need to give a username and password, simply leave out everything before the "@" sign, this sign included.
 
+- For more info about proxy serves you can read: http://www.brennan.id.au/11-Squid_Web_Proxy.html
+
+- Here you can find answers to common questions about proxy serves:http://www.cyberciti.biz/faq/linux-unix-set-proxy-environment-variable/
+
+
