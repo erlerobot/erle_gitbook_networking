@@ -1,20 +1,20 @@
 ## General Networking
 
-
+####Display network information for your workstation:
 ---
 
-Define a variable `x` equal to 10.
+Display IP address.
 
 ```js
-var x =
+var IP_address =
 ```
 
 ```js
-var x = 10;
+var IP_address= ip addr show;
 ```
 
 ```js
-assert(x == 10);
+assert(x == ip addr show);
 ```
 
 ```js
