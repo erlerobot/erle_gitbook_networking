@@ -54,7 +54,7 @@ Displays the route packets take to network host.`traceroute` utilizes the IP pro
 
 #### `whois`command
 
-Specific domain name information can be queried using the `whois` command.This utility looks up records in the databases maintained by several Network Information Centers (NICs).
+Specific domain name information can be queried using the `whois` command.This utility looks up records in the databases maintained by several Network Information Centers (NICs) and then displays internet domain name and network number directory service
 
 ####`sudo `command
 This command allows a permitted user to execute a command as the superuser or another user, as specified in the sudoers file.
