@@ -5,7 +5,7 @@ Computers may be assigned a static IP address or assigned one dynamically. Typic
 The sintaxis of the commadn used to assign a IP address is:
 ```
 ifconfig interface [aftype] options | address ...
-````
+```
 
 Static IP address assignment example:
 ```
