@@ -28,3 +28,71 @@ Don't use the File Transfer Protocol for non-anonymous login unless you know wha
 **To install and configure ftp in your Linux pc visit:**
 https://help.ubuntu.com/10.04/serverguide/ftp-server.html
 
+
+####FTP examples
+
+Use the following syntax to connect to transfer files to and from a remote network ftp site:
+
+```
+ftp ftp.example.com
+ftp 1.2.3.4
+ftp user@ftp.example.com
+```
+
+FTP command options:
+
+```
+ftp
+```
+Type the ls command at ftp> prompt for listing current file:
+```
+ftp> ls
+```
+To change directory on the remote machine use cd command:
+```
+ftp> cd dirName
+```
+
+To copy one file at a time from the remote ftp server to the local system use `get` command:
+````
+get fileName
+get fileName newFileName
+```
+In this example, download file resume.pdf in the current remote directory to (or on top of) a file with the same name, resume.pdf, in your current local directory:
+```
+ftp> get resume.pdf
+```
+
+In this example, copies file data.tar.gz in the current remote directory to (or on top of) a file named backup.tar.gz in your current local directory:
+```
+ftp> get data.tar.gz backup.tar.gz
+```
+
+To change directory on your local system, enter:
+```
+ftp> lcd /path/to/new/dir
+ftp> lcd /tmp
+```
+Print local directory:
+```
+ftp> lpwd
+```
+To delete a file in the current remote directory use delete command:
+```
+ftp> delete fileName
+ftp> delete output.jpg
+```
+To copy one file at a time from the local systems to the remote ftp server, enter:
+```
+ftp> put fileName
+```
+Type quit or bye, enter:
+```
+ftp> quit
+```
+or
+```
+ftp> bye
+```
+
+For more examples visit this [website](http://www.cyberciti.biz/faq/linux-unix-ftp-commands/)
