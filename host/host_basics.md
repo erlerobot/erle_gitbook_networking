@@ -6,6 +6,7 @@ A network host is a computer or other device connected to a computer network. A 
 The  /etc /hostname file contains the computer name
 adopted when the operating system starts.
 If you use the command `hostname`you can see the name of your host computer.
+
 ```
 root@erlerobot:~# hostname
 erlerobot

@@ -62,6 +62,7 @@ In this [link](http://www.tldp.org/LDP/nag/node73.html) you can find other optio
 ####route
 
 The sintaxis is the following one:
+
 ```
 route  [-n] command [-net|-host] destination
 ```

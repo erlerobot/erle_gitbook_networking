@@ -9,6 +9,7 @@ In Linux we are able to configure the network by editing the configuration files
 Contains information required to configure the interfaces of host network at boot time. It also allows you to set static routes to other networks.
 
 What you find if you go to networks directory and open interfaces, by typing:
+
 ```
 vi interfaces
 ```

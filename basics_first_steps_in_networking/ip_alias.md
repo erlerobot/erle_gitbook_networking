@@ -7,6 +7,7 @@ sometimes called *Virtual Hosting*.
 To configure an alias for an interface, you must first ensure that your kernel has been compiled with support
 for IP Alias (check that you have a /proc/net/ip_alias file; if not, you will have to recompile your
 kernel). Configuration of an IP alias is virtually identical to configuring a real network device; you use a special name to indicate it's an alias that you want. For example:
+
 ```
  ifconfig lo:0 172.16.1.1
 ```

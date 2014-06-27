@@ -35,11 +35,8 @@ As soon as a connection request is received, the central server will start an in
 ```
 ps auxw | grep ftp
 ```
-```
-root     793  0.1  0.2  3960 1076 pts/6    S    16:44   0:00 ncftp localhost
-ftp     794  0.7  0.5  5588 2608 ?        SN   16:44   0:00 ftpd:
-localhost.localdomain: anonymous/root@his.server.com: IDLE
-```
+![psaxw](img7/ejm1.jpg)
+
 Of course, the same happens when you open connections to remote hosts: either a daemon answers directly, or a remote (x)inetd starts the service you need and stops it when you quit.
 
 

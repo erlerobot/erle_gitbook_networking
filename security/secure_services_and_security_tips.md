@@ -32,7 +32,7 @@ Security Tips:
 
 - Take passwords seriously. Use shadow passwords. Change your passwords regularly.
 
- -Try to always use SSH or SSL. Avoid telnet, FTP and E-mail clients and other client programs which send unencrypted passwords over the network. Security is not only about securing your computer, it is also about securing your passwords.
+- Try to always use SSH or SSL. Avoid telnet, FTP and E-mail clients and other client programs which send unencrypted passwords over the network. Security is not only about securing your computer, it is also about securing your passwords.
 
 - Limit resources using quota and/or ulimit.
 
