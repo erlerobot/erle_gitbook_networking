@@ -39,9 +39,26 @@ There are plenty of both text and graphical E-mail clients, we'll just name a fe
 
 The UNIX mail command has been around for years, even before networking existed. It is a simple interface to send messages and small files to other users, who can then save the message, redirect it, reply to it etcetera.
 
-While it is not commonly used as a client anymore, the mail program is still useful, for example to mail the output of a command to somebody:
+While it is not commonly used as a client anymore, the mail program is still useful, for example to mail the output of a command to somebody.
+
+- Sending mail:
+
 ```
 mail example@erlerobot < doc.txt
 ```
+```
+mail -s “Hello Erle” example@erlerobot.com
+```
+```
+echo “This will go into the body of the mail.” | mail -s “Hello Erle” example@erlerobot.com
+```
+
+
+- Reading Mail:
+
+In normal usage `mail` is given no arguments and checks your mail out of the post office, then prints out a one line header of each message found.The current message is initially the first message (numbered 1) and can be printed using the `print command (which can be abbreviated p).  You can move among the messages much as you move between lines in ed(1), with thecommands + and - moving backwards and forwards, and simple numbers.
 
 For those users who prefer a graphical interface to their mail (and a tennis elbow or a mouse arm), there are hundreds of options. The most popular for new users are Mozilla Mail/Thunderbird, which has easy anti-spam configuring options, and Evolution, the MS Outlook clone. Kmail is popular among KDE users.
+
+
+For more info and mail installation/configuration, you can visit: http://www.ajpdsoft.com/modules.php?name=News&file=article&sid=506#instalarmailx
