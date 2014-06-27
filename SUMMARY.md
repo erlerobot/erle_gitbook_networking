@@ -42,4 +42,6 @@
    * [Secure services and security tips](security/secure_services_and_security_tips.md)
    * [Firewall](security/firewall.md)
        * [IP Filtering](security/ip_filtering.md)
+* [Practice](practice/README.md)
+   * [General Networking](practice/general_networking.md)
 
