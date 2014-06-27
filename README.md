@@ -35,6 +35,7 @@ This book has been based on diferent Linux documentation avaliable on the intern
 - [Configuración de la red en GNU/Linux)]( http://elara.site.ac.upc.edu/documentacion/LINUX%20-%20UD11%20-%20Configuracion%20de%20red%20en%20Linux.pdf)
 - [Introducción a las Redes de Ordenadores](http://docencia.etsit.urjc.es/moodle/mod/folder/view.php?id=3043)
 - [The Linux Networking Overview HOWTO](http://www.tldp.org/HOWTO/Networking-Overview-HOWTO.html#toc7)
+- [Linux Security HOWTO](http://www.tldp.org/HOWTO/Security-HOWTO/)
 - [Introduction to Linux: A Hands on Guide by Machtelt Garrels](http://www.tldp.org/LDP/intro-linux/html/chap_10.html)
 - [How stuff works](http://www.howstuffworks.com/index.htm)
 - [About.com /linux](http://linux.about.com/)

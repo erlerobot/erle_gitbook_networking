@@ -56,6 +56,11 @@ Displays the route packets take to network host.`traceroute` utilizes the IP pro
 
 Specific domain name information can be queried using the `whois` command.This utility looks up records in the databases maintained by several Network Information Centers (NICs).
 
+####`sudo `command
+This command allows a permitted user to execute a command as the superuser or another user, as specified in the sudoers file.
+
+If the invoking user is root or if the target user is the same as the invoking user, no password is required.  Otherwise, sudo requires that users authenticate themselves with a password by default (NOTE: in the default configuration this is the user's password, not the root password).Once a user has been authenticated, a time stamp is updated and the user may then use sudo without a password for a short period of time (5 minutes unless overridden in sudoers).
+
 
 |**Command**|**Meaning**|
 |-------------|------------|
@@ -71,6 +76,8 @@ Specific domain name information can be queried using the `whois` command.This u
 |ip -- show|display Ip address/route|
 |traceroute|display packet's route|
 |whois|domain name information|
+|sudo |execute a command as another user|
+
 
 
 

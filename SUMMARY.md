@@ -38,4 +38,8 @@
    * [The X Window System](remote_execution_of_applications/the_x_window_system.md)
    * [SSH suite](remote_execution_of_applications/ssh_suite.md)
    * [Extra concepts](remote_execution_of_applications/extra_concepts.md)
+* [Security](security/README.md)
+   * [Secure services and security tips](security/secure_services_and_security_tips.md)
+   * [Firewall](security/firewall.md)
+       * [IP Filtering](security/ip_filtering.md)
 
