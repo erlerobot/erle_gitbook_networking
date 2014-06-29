@@ -38,7 +38,7 @@ How can you see who connected to your system?:
 - [x] using the comman `who`
 - [ ] using the command `traceroute` for following a packet
 
-> You can know more about who command in the man page.
+> You can know more about `who` command in the man page.
 
 
 
