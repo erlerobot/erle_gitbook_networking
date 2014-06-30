@@ -44,4 +44,15 @@ How can you see who connected to your system?:
 
 ---
 
+####Question 3
+---
+Using Iptables we want to let the packages just go through this system to be routed :
 
+- [ ] iptables -t filter -P FORWARD ACCEPT
+- [x] iptables -t filter -P FORWARD DROP
+
+> Read more in *9.2.2.2 Orders and parameters*.
+
+
+
+---
