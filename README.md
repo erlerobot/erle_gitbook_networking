@@ -28,8 +28,8 @@ Our small-size Linux computer is bringing robotics to the people and businesses.
 
 
 ##License
+This book has been based on diferent Linux documentation avaliable on the internet. Refer to the sources for the corresponding licenses:
 
-This book has been based on diferent Linux documentation avaliable on the internet:
 -  [The Linux Network Administrator's Guide ](http://www.tldp.org/LDP/nag2/nag2.pdf), part of the project ["The Open Source Writers Guild (OSWG)"](http://www.oswg.org:8080/oswg)
 - [Linux Network Configuration](http://www.yolinux.com/TUTORIALS/LinuxTutorialNetworking.html)
 - [Configuración de la red en GNU/Linux)]( http://elara.site.ac.upc.edu/documentacion/LINUX%20-%20UD11%20-%20Configuracion%20de%20red%20en%20Linux.pdf)
