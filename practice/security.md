@@ -5,7 +5,7 @@
 
 ---
 
-Type the command line to make a list of open (listening) ports on your machine.
+Type the command line to make a list of open (listening) ports on your machine.For more clues, you can read *9.1 Secure services and security tips*.Nevertheless you don't know, select solution to see the correct answer.
 
 ```js
 var Command_line =
@@ -46,12 +46,13 @@ How can you see who connected to your system?:
 
 ####Question 3
 ---
-Using Iptables we want to let the packages just go through this system to be routed :
+Using Iptables we want to let the packages just go through this system to be routed. Which command line is the correct one? :
 
 - [ ] iptables -t filter -P FORWARD ACCEPT
 - [x] iptables -t filter -P FORWARD DROP
 
-> Read more in *9.2.2.2 Orders and parameters*.
+> Read more in *9.2.2.2 Orders and parameters*
+
 
 
 
