@@ -14,4 +14,6 @@ wish to filter; some examples of these are:
 It is important to understand at this point that IP filtering is a network layer facility. This means it doesn't understand anything about the application using the network connections, only about the connections themselves. For example, you may deny users access to your internal network on the default telnet port, but if you rely on IP filtering alone, you can't stop them from using the telnet program with a port that you do allow to pass trhough your firewall. You can prevent this sort of problem by using proxy servers for each service that you allow across your firewall. The proxy servers understand the application they were designed to proxy and can therefore prevent abuses, such as using the telnet program to get past a firewall by using the World
 Wide Web port.
 
+The Linux kernel must be configured to support IP firewalling. If you want to read more visit the chapter about Ip filtering [here](http://www.tldp.org/LDP/nag2/nag2.pdf)
+
 
