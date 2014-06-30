@@ -10,6 +10,8 @@ In other words, `iptables` is the name of the user space tool by which administr
 
 Iptables starts with the system and remains active all the time, adapting and applying to all network traffic rules which have been previously configured.
 
+![iptables](img9/iptables.gif)
+
 ####Types of tables
 
 There are three types of tables in `iptables`:
