@@ -10,6 +10,7 @@ This question consist on displaying network information for your workstation. Yo
 Introduce the command necessary to display the IP address. If you don't know the solution feel free to press solution to see the right answer:
 
 ```js
+// Introduce on IP_address the corresponding bash command line
 var IP_address =
 ```
 
@@ -37,6 +38,7 @@ function magicFunc() {
 Now type the command you should use to display the IP route.
 
 ```js
+// Introduce on IP_route the corresponding bash command line
 var IP_route =
 ```
 
@@ -63,6 +65,7 @@ function magicFunc() {
 Finally introduce the command that shows the nameserver.
 
 ```js
+// Introduce on Serv the corresponding bash command line
 var Serv=
 ```
 
@@ -144,6 +147,7 @@ Does your machine run a web server?How to check it?:
 You want to send to *member1@erlerobot.com* a mail containing the *doc.txt* file.Please, enter the command line for doing this. You can find help in *7.4 Mail*. If you don't know press solution.
 
 ```js
+// Introduce on command_line the corresponding bash command line
 var command_line=
 ```
 

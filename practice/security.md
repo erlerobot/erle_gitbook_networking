@@ -8,6 +8,7 @@
 Type the command line to make a list of open (listening) ports on your machine.For more clues, you can read *9.1 Secure services and security tips*.Nevertheless you don't know, select solution to see the correct answer.
 
 ```js
+// Introduce on command_line the corresponding bash command line
 var Command_line =
 ```
 
