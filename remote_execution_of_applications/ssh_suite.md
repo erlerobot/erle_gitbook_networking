@@ -14,14 +14,18 @@ When connecting to a host for the first time, using any of the programs that are
 
 
 ```
-ssh blob
+ssh 11.0.0.2
 ```
 
 If you just want to check something on a remote machine and then get your prompt back on the local host, you can give the commands that you want to execute remotely as arguments to ssh:
 
 
 ```
-ssh blob who
+ssh 11.0.0.2 who
+```
+```
+root@erlerobot:~# ssh 11.0.0.2 who
+ssh: connect to host 11.0.0.2 port 22: No route to host
 ```
 
 The command `uname` prints operating system name:
@@ -49,16 +53,20 @@ The ssh client/server system automatically maintains and checks a database conta
 ####Secure remote copying
 
 The SSH suite provides `scp` command. `scp `uses ssh for data transfer, uses the same authentication and provides the same security as ssh.In other words, `scp `copies files between hosts on a network.For example:
+```
+scp <file> root@Ip:<destination directory>
+```
+
 
 ```
-scp Schedule.sdc.gz blob:/var/tmp/
+scp prueba.txt root@11.0.0.2:/var/tmp/
 ```
 
 `scp` can only be used for transferring files, and it is non-interactive (i.e., everything has to be specified on the command line). `sftp` is more elaborate, and allows interactive commands to do things like creating directories, deleting directories and files (all subject to system permissions, of course), etc.
 
 
 ```
-sftp blob
+sftp 11.0.0.2
 
 sftp> cd /var/tmp
 
