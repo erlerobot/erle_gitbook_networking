@@ -135,3 +135,33 @@ Does your machine run a web server?How to check it?:
 
 ---
 
+####Question 5
+
+
+
+---
+
+Send to member1@erlerobot.com a mail containing the doc.txt file.
+
+```js
+var command_line=
+```
+
+```js
+var command_line= mail member1@erlerobot.com < doc.txt;
+```
+
+```js
+assert(command_line= mail member1@erlerobot.com < doc.txt);
+```
+
+```js
+// This is context code available everywhere
+// The user will be able to call magicFunc in his code
+function magicFunc() {
+    return 3;
+}
+```
+
+---
+
