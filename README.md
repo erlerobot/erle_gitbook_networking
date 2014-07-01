@@ -4,7 +4,7 @@
 
 ##Book
 
-This book presents an introduction to **Network** in Linux, using [Erle board](http://erlerobot.com/). **Erle** is **a small-size Linux computer for making drones.**
+This book presents an introduction to **networking** in Linux, using [Erle-board](http://erlerobot.com/). **Erle** is **a small-size Linux computer for making drones.**
 
 Throught this tutorial you will learn the basics about networking, concepts such as host or DNS, the usual commands in Linux networking and their functions...
 
