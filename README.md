@@ -1,6 +1,7 @@
 
 # Erle Robotics: Introduction to Networking in Linux
 
+[![Build Status](https://www.gitbook.io/button/status/book/erlerobotics/erle-robotics-introduction-to-networking-in-linux)](https://www.gitbook.io/book/erlerobotics/erle-robotics-introduction-to-networking-in-linux/activity)
 
 ##Book
 
