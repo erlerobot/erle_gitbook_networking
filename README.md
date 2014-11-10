@@ -15,41 +15,23 @@ Throught this tutorial you will learn the basics about networking, concepts such
 
 
 ##About
+For years we've been working in the robotics field, particularly with drones. We have passed through different Universities and research centers and in all these places we actually found that most of the **drones are black boxes** (check out our [60s pitch](https://www.youtube.com/watch?v=tKAqjyXaC18)). Not meant to be used for learning, research. The software they use is in most of the cases unknown, closed source or *not documented*.
+Given these conditions, how are we going to educate the next generations on this technologies? How do you get started programming drones if you don't have $1000+ budget? Which platform allows me to get started with drones without risking a hand?
 
-For years we've been working in the robotics field, particularly with drones. We have passed through different Universities and research centers and in all these places we actually found that most of the **drones are black boxes** (check out our [60s pitch](https://www.youtube.com/watch?v=tKAqjyXaC18)). Not meant to be used for learning, research. The software they use is in most of the cases unknown, closed source or **not documented**. Given these conditions, how are we going to educate the next generations on this technologies? How do you get started programming drones if you don't have $1000+ budget? Which platform allows me to get started with drones without risking a hand?
+We are coming up with an answer to all these questions, our technology at [Erle Robotics](http://erlerobotics.com) and our drones brain: [Erle-brain](http://erlerobotics.com/blog/tienda/erle-brain).
 
-We are coming up with an answer to all these questions, our technology: **Erle**.
-
-![imgerle1](erleimg/board2.png)
+![erle-brain](http://erlerobotics.com/blog/wp-content/uploads/2014/10/20141029_202223.jpg)
 
 Inspired by the BeagleBone development board, we have designed a small computer with about 36+ sensors, plenty of I/O and processing power for real-time analysis. Erle is the enabling technology for the next generation of aerial and terrestrial robots that will be used in cities solving tasks such as surveillance, enviromental monitoring or even providing aid at catastrophes.
 
 Our small-size Linux computer is bringing robotics to the people and businesses.
 
 
-
 ##License
-This book has been based on diferent Linux documentation avaliable on the internet. Refer to the sources for the corresponding licenses:
+Unless specified, this content is licensed under the Creative Commons Attribution-NonComercial-Share Alike 3.0 Unported License. To view a copy of this license, visit [http://creativecommons.org/licenses/by-sa/3.0/](http://creativecommons.org/licenses/by-sa/3.0/) or send a letter to *Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA*.
 
--  [The Linux Network Administrator's Guide ](http://www.tldp.org/LDP/nag2/nag2.pdf), part of the project ["The Open Source Writers Guild (OSWG)"](http://www.oswg.org:8080/oswg)
-- [Linux Network Configuration](http://www.yolinux.com/TUTORIALS/LinuxTutorialNetworking.html)
-- [Configuración de la red en GNU/Linux)]( http://elara.site.ac.upc.edu/documentacion/LINUX%20-%20UD11%20-%20Configuracion%20de%20red%20en%20Linux.pdf)
-- [Introducción a las Redes de Ordenadores](http://docencia.etsit.urjc.es/moodle/mod/folder/view.php?id=3043)
-- [The Linux Networking Overview HOWTO](http://www.tldp.org/HOWTO/Networking-Overview-HOWTO.html#toc7)
-- [Linux Security HOWTO](http://www.tldp.org/HOWTO/Security-HOWTO/)
-- [Introduction to Linux: A Hands on Guide by Machtelt Garrels](http://www.tldp.org/LDP/intro-linux/html/chap_10.html)
-- [How stuff works](http://www.howstuffworks.com/index.htm)
-- [About.com /linux](http://linux.about.com/)
-- [Wikipedia](http://en.wikipedia.org/wiki/English_Wikipedia)
-- [Cybercity](http://www.cyberciti.biz/faq/category/networking/)
+![license](http://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
 
-
-Unless specified, this content is licensed under the Creative Commons Attribution-NonComercial-Share Alike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
-
-![license](erleimg/88x31.png)
-
-
-All derivative works are to be attributed to *Silvia Núñez Rivero* of **Erle Robotics S.L.**.
+All derivative works are to be attributed to *Erle Robotics S.L.*. For a list of authors refer to [erle_gitbook/graphs/contributors](https://github.com/erlerobot/erle_gitbook/graphs/contributors).
 
 For any questions, concerns, or issues submit them to support [at] erlerobot.com.
-
