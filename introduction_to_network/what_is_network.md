@@ -22,8 +22,6 @@ The protocols used by the machines are organised in different **layers or levels
 Each level in a machine "talks with" his twin
 in another. The rules governing this "conversation" form the protocol of that level.
 
-![protocolsandlevels](img/pro_levels.jpg)
-
 Here you can find some example of protocols and his corresponding level:
 
 |**Layer name**|	** Protocols**|
